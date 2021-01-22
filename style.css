@@ -2,15 +2,13 @@ body {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  /* background-color: grey; */ 
-   background-image: 
-   linear-gradient(
+  /* background-color: grey; */
+  background-image: linear-gradient(
       to bottom,
       rgba(78, 34, 34, 0.808),
       rgba(221, 202, 202, 0.897)
     ),
-    
-  url("download.jfif")
+    url("download.jfif");
 }
 
 .main-heading {
@@ -21,18 +19,15 @@ body {
   text-shadow: 2px 2px black;
 }
 .search-area {
-  
   /* background-color: red; */
   width: 600px;
-  position:relative;
+  position: relative;
   top: 50%;
-  bottom:50%;
+  bottom: 50%;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  transform: translate(0%,-50%);
-
-  
+  transform: translate(0%, -50%);
 }
 .search-box {
   height: 100px;
@@ -44,45 +39,50 @@ body {
   flex-direction: row;
   font-size: 35px;
   border-color: black;
-  border:none;
+  border: none;
   background-repeat: no-repeat;
   outline: none;
   background: none;
   font-weight: 500;
 }
-.searchbox{
-    display: flex;
-    flex-direction: row;
-    border-radius:2cm;
-    border-color: black;
-    border:solid;
-    width:800px;
-   
-    
-    /* opacity:0.1; */
+.searchbox {
+  display: flex;
+  flex-direction: row;
+  border-radius: 2cm;
+  border-color: black;
+  border: solid;
+  width: 800px;
 
+  /* opacity:0.1; */
 }
-.search{
-    margin-left: auto;
-    margin-right: auto;
-    background-color: white;
-    border: none;
-    height: 100px;
-    background: none;
-
+.search {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  border: none;
+  height: 100px;
+  background: none;
 }
-.search:hover{
-    cursor: pointer;
-    
-
+.search:hover {
+  cursor: pointer;
 }
-.searchbox:hover{
-    box-shadow: 4px 4px 4px 4px black;
-
-
+.searchbox:hover {
+  box-shadow: 2px 2px 2px 2px black;
 }
-.search-box:hover{
-    box-shadow: 2cm;
-    border: 0cm;
+.search-box:hover {
+  box-shadow: 2cm;
+  border: 0cm;
 }
-
+.hidden {
+  display: none;
+}
+.country-stats {
+  font-size: 50px;
+  font-weight: 900;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.flag {
+  float: right;
+  margin-right: 20px;
+  margin-top: 20px;
+}
